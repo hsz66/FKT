@@ -8,10 +8,13 @@ The complete dataset can be downloaded from the link below.
 [ASSIST2012](https://sites.google.com/site/assistmentsdata/2012-13-school-data-withaffect)
 [ASSISTChall](https://sites.google.com/view/assistmentsdatamining/)
 # Examples to run the model
-`<python -u train.py --dataset junyi_for_testing --gpu 0>`  
+'''
+python -u train.py --dataset junyi_for_testing --gpu 0
+'''
 # Citation
 If our code is helpful to your work, please cite:
-'@article{HUANG2024122107,
+'''
+@article{HUANG2024122107,
 title = {Response speed enhanced fine-grained knowledge tracing: A multi-task learning perspective},
 journal = {Expert Systems with Applications},
 volume = {238},
@@ -21,4 +24,5 @@ issn = {0957-4174},
 doi = {https://doi.org/10.1016/j.eswa.2023.122107},
 author = {Tao Huang and Shengze Hu and Huali Yang and Jing Geng and Zhifei Li and Zhuoran Xu and Xinjia Ou},
 keywords = {Knowledge tracing, Learning trajectory, Multi-task learning, Transformer, Response speed},
-}'
+}
+'''
